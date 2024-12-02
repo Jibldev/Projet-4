@@ -279,6 +279,13 @@ object-fit: cover;
   object-fit: cover; /* Pour que l'image occupe tout l'espace */
 }
 
+#aboutimage{
+	width: auto;
+	height: auto;
+	max-width: 560px;
+	max-height: 558.45px;
+}
+
 
 
 @media all and (max-width: 1180px) {
