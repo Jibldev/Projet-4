@@ -255,23 +255,30 @@ object-fit: cover;
 #carouselExampleIndicators .carousel-inner {
 	position: relative; /* Pour garder le fonctionnement de Bootstrap */
 	width: 100%;
-	height: 887px;
+	height: auto;
+	max-height: 887px;
 	overflow: hidden; /* Éviter que les images débordent */
 }
 
-#carouselExampleIndicators .carousel-item {
-	position: relative; /* Laisser Bootstrap gérer la position pour l'animation */
-	width: 100%;
-	height: 100%; /* Remplir la hauteur du conteneur */
+.gallery-item {
+  position: relative; /* Nécessaire pour contenir l'image en absolu */
+  width: 100%; /* L'élément occupe toute la largeur du conteneur parent */
+  padding-bottom: 0%; /* Définit un ratio d'aspect de 3/2 (hauteur/largeur) */
+  overflow: hidden; /* Assure que l'image ne déborde pas */
 }
 
-#carouselExampleIndicators .carousel-item img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.carousel-item {
+  position: relative;
+  height: 100%; /* Adapter la hauteur de chaque item du carrousel */
+	height: auto;
 }
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Pour que l'image occupe tout l'espace */
+}
+
 
 
 @media all and (max-width: 1180px) {
@@ -291,9 +298,7 @@ object-fit: cover;
 	
 	/***** Ajout de code *****/
 	
-	#carouselExampleIndicators .carousel-inner {
-		height: 500px; /* Hauteur réduite pour les écrans intermédiaires */
-	}
+
 }
 
 @media all and (max-width: 1000px) {
@@ -355,9 +360,7 @@ object-fit: cover;
 	}
 	
 	/***** Ajout de code *****/
-	#carouselExampleIndicators .carousel-inner {
-		height: 400px; /* Hauteur encore plus petite pour des écrans plus petits */
-	}
+
 }
 
 @media all and (max-width: 650px) {
@@ -395,12 +398,6 @@ object-fit: cover;
 	}
 	
 	/***** Ajout de code *****/
-	#carouselExampleIndicators .carousel-inner {
-		height: 300px; /* Hauteur ajustée pour les petits écrans */
-	}
-	
-	#carouselExampleIndicators .carousel-item img {
-		object-fit: cover; /* Toujours couvrir le conteneur sans déformation */
-	}
+
 }
 
