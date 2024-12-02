@@ -260,12 +260,6 @@ object-fit: cover;
 	overflow: hidden; /* Éviter que les images débordent */
 }
 
-.gallery-item {
-  position: relative; /* Nécessaire pour contenir l'image en absolu */
-  width: 100%; /* L'élément occupe toute la largeur du conteneur parent */
-  padding-bottom: 0%; /* Définit un ratio d'aspect de 3/2 (hauteur/largeur) */
-  overflow: hidden; /* Assure que l'image ne déborde pas */
-}
 
 .carousel-item {
   position: relative;
