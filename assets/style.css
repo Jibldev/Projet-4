@@ -244,6 +244,36 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+/***** Ajout de code *****/
+
+#instagramlogo{
+width: 20px;
+height: 20px;
+object-fit: cover;
+}
+
+#carouselExampleIndicators .carousel-inner {
+	position: relative; /* Pour garder le fonctionnement de Bootstrap */
+	width: 100%;
+	height: 887px;
+	overflow: hidden; /* Éviter que les images débordent */
+}
+
+#carouselExampleIndicators .carousel-item {
+	position: relative; /* Laisser Bootstrap gérer la position pour l'animation */
+	width: 100%;
+	height: 100%; /* Remplir la hauteur du conteneur */
+}
+
+#carouselExampleIndicators .carousel-item img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -257,6 +287,12 @@ input[type="submit"] {
 	}
 	#about-me h6, #about-me p {
 		width: 100%;
+	}
+	
+	/***** Ajout de code *****/
+	
+	#carouselExampleIndicators .carousel-inner {
+		height: 500px; /* Hauteur réduite pour les écrans intermédiaires */
 	}
 }
 
@@ -317,6 +353,11 @@ input[type="submit"] {
 		right: 0;
 		z-index: -1;
 	}
+	
+	/***** Ajout de code *****/
+	#carouselExampleIndicators .carousel-inner {
+		height: 400px; /* Hauteur encore plus petite pour des écrans plus petits */
+	}
 }
 
 @media all and (max-width: 650px) {
@@ -351,6 +392,15 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+	
+	/***** Ajout de code *****/
+	#carouselExampleIndicators .carousel-inner {
+		height: 300px; /* Hauteur ajustée pour les petits écrans */
+	}
+	
+	#carouselExampleIndicators .carousel-item img {
+		object-fit: cover; /* Toujours couvrir le conteneur sans déformation */
 	}
 }
 
