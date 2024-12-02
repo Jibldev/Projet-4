@@ -268,15 +268,18 @@ object-fit: cover;
 
 .carousel-item img {
   width: 100%;
+	max-width: 1920px;
   height: auto;
+	max-height: 887px;
   object-fit: cover; /* Pour que l'image occupe tout l'espace */
 }
 
-#aboutimage{
-	width: auto;
-	height: auto;
-	max-width: 560px;
-	max-height: 558.45px;
+#aboutimage {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  max-height: 558px; 
+  object-fit: cover;
 }
 
 
