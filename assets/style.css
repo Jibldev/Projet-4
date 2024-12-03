@@ -282,6 +282,14 @@ object-fit: cover;
   object-fit: cover;
 }
 
+#camera {
+  width: 100%;
+  max-width: 419px;
+  height: auto;
+  max-height: 419px; 
+  object-fit: cover;
+}
+
 
 
 @media all and (max-width: 1180px) {
