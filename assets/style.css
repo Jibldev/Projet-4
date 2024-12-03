@@ -268,25 +268,25 @@ object-fit: cover;
 }
 
 .carousel-item img {
-  width: 100%;
+  width: 100% !important;
 	max-width: 1920px;
-  height: auto;
+  height: auto !important;
 	max-height: 887px;
   object-fit: cover;
 }
 
 #picture.left {
-  width: auto;
+  width: auto !important;
   max-width: 560px;
-  height: auto;
+  height: auto !important;
   max-height: 558px; 
 }
 
 
 #camera {
-  width: auto;
+  width: auto !important;
   max-width: 419px;
-  height: auto;
+  height: auto !important;
   max-height: 419px; 
   object-fit: cover;
 }
