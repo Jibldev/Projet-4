@@ -249,9 +249,7 @@ input[type="submit"] {
 #carouselExampleIndicators .carousel-inner .carousel-item {
   position: relative; /* Pour garder le fonctionnement de Bootstrap */
   width: 100%;
-  max-width: 1920px;
   height: auto;
-  max-height: 887px;
   overflow: hidden;
 }
 
