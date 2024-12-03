@@ -275,7 +275,7 @@ object-fit: cover;
 }
 
 #aboutimage {
-  width: 100%;
+  width: auto;
   max-width: 560px;
   height: auto;
   max-height: 558px; 
@@ -283,7 +283,7 @@ object-fit: cover;
 }
 
 #camera {
-  width: 100%;
+  width: auto;
   max-width: 419px;
   height: auto;
   max-height: 419px; 
