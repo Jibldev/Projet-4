@@ -252,9 +252,10 @@ height: 20px;
 object-fit: cover;
 }
 
-#carouselExampleIndicators .carousel-inner {
+#carouselExampleIndicators .carousel-inner .carousel-item {
 	position: relative; /* Pour garder le fonctionnement de Bootstrap */
 	width: 100%;
+	max-width: 1920px;
 	height: auto;
 	max-height: 887px;
 	overflow: hidden; 
@@ -274,13 +275,13 @@ object-fit: cover;
   object-fit: cover;
 }
 
-#aboutimage {
+#picture.left {
   width: auto;
   max-width: 560px;
   height: auto;
   max-height: 558px; 
-  object-fit: cover;
 }
+
 
 #camera {
   width: auto;
