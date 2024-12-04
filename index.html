@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Précharger les polices Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,12 +21,13 @@
 
 
     <!-- CSS Bootstrap -->
+		<link rel="preload" href="bootstrap.css" as="style" onload="this.onload=null;this.rel='stylesheet';">
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
 
     <!-- CSS du projet -->
     <link rel="stylesheet" href="./assets/style.css" />
 
-    <script src="./assets/bootstrap/bootstrap.bundle.js" ></script>
+    <script src="./assets/bootstrap/bootstrap.bundle.js" defer ></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
