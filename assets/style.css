@@ -300,7 +300,6 @@ input[type="submit"] {
     height: 100%;
     max-height: 545.45px;
     overflow: hidden;
-    aspect-ratio: 6.49/3;
   }
 
   .carousel-item img {
@@ -378,7 +377,6 @@ input[type="submit"] {
     height: 100%;
     max-height: 462.23px;
     overflow: hidden;
-    aspect-ratio: 6.49/3;
   }
 
   .carousel-item img {
@@ -435,7 +433,6 @@ input[type="submit"] {
     height: 100%;
     max-height: 300.45px;
     overflow: hidden;
-    aspect-ratio: 6.49/3;
   }
 
   .carousel-item img {
