@@ -12,4 +12,15 @@ $(document).ready(function() {
         showTags: true,
         tagsPosition: 'top'
     });
+
+    // Code ajouté pour le carousel
+    const carousel = document.querySelector('#carouselExampleIndicators');
+    if (carousel) {
+        carousel.addEventListener('slid.bs.carousel', function () {
+            const activeImg = document.querySelector('.carousel-item.active img');
+            const src = activeImg.src;
+            activeImg.src = ''; // Efface temporairement la source
+            activeImg.src = src; // Recharge l'image avec le bon `srcset`
+        });
+    }
 });
