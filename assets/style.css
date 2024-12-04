@@ -252,7 +252,6 @@ input[type="submit"] {
   height: 100%;
   max-height: 887px;
   overflow: hidden;
-  aspect-ratio: 6.49/3;
 }
 
 .carousel-item img {
