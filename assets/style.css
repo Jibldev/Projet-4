@@ -254,6 +254,13 @@ input[type="submit"] {
   overflow: hidden;
 }
 
+.carousel-item img {
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+  max-height: 887px;
+ object-fit: cover;
+ }
 
 .aboutimage {
   width: 100%;
@@ -287,6 +294,12 @@ input[type="submit"] {
 
   #carouselExampleIndicators .carousel-inner .carousel-item {
     position: relative;
+    width: 100%;
+    max-width: 1180px;
+    height: 100%;
+    max-height: 545.45px;
+  }
+  .carousel-item img {
     width: 100%;
     max-width: 1180px;
     height: 100%;
@@ -360,7 +373,12 @@ input[type="submit"] {
     height: 100%;
     max-height: 462.23px;
   }
-
+    .carousel-item img {
+      width: 100%;
+      max-width: 1000px;
+      height: 100%;
+      max-height: 462.23px;
+    }
 }
 
 @media all and (max-width: 650px) {
@@ -409,5 +427,10 @@ input[type="submit"] {
     max-height: 300.45px;
   }
 
-
+  .carousel-item img {
+    width: 100%;
+    max-width: 650px;
+    height: 100%;
+    max-height: 300.45px;
+}
 }
