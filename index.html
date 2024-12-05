@@ -3,6 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      .carousel-item img {
+       width: 100%;
+       max-width: 1920px;
+       height: 100%;
+       max-height: 887px;
+      object-fit: cover;
+      }
+    </style>  
     <!-- Précharger les polices Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,13 +26,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
-
-
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css"/>
 
     <!-- CSS du projet -->
-    <link rel="stylesheet" href="./assets/style.css"  media="print" onload="this.media='all';" />
+    <link rel="stylesheet" href="./assets/style.css"  />
 
     <script src="./assets/bootstrap/bootstrap.bundle.js" ></script>
     <script
@@ -32,7 +40,8 @@
       defer
     ></script>
     <script src="./assets/maugallery.js" defer></script>
-    <script src="./assets/scripts.js" defer></script>
+    <script src="./assets/scripts.js" defer></script>*
+
   </head>
   <body>
     <div class="top-header">
