@@ -28,7 +28,6 @@
     max-width: 1180px;
     height: 100%;
     max-height: 545.45px;
-    object-fit: cover;
   }
 }
 
@@ -45,7 +44,6 @@
       max-width: 1000px;
       height: 100%;
       max-height: 462.23px;
-      object-fit: cover;
     }
   }
 
@@ -64,6 +62,5 @@
       max-width: 650px;
       height: 100%;
       max-height: 300.45px;
-      object-fit: cover;
   }
 }
