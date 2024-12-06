@@ -6,27 +6,27 @@ body {
   font-family: "Inter";
   font-style: normal;
 }
-.top-header {
+header {
   background-color: white;
   position: sticky;
   top: 0;
   z-index: 1000;
-  display: flex;
-  justify-content: space-between;
   padding-inline: 100px;
   padding-block: 30px;
-  align-items: center;
 }
 
 .top-header .name {
   font-size: 26px;
 }
-
+.nav{
+  justify-content: flex-end;
+  margin-top: -45px;
+}
 .nav ul {
   display: flex;
   list-style-type: none;
   font-size: 14px;
-  margin-bottom: 0;
+  margin-bottom: 6px;
 }
 
 .nav li {
@@ -244,6 +244,11 @@ input[type="submit"] {
 
 /***** Ajout de code *****/
 
+.page-title {
+  position: absolute;
+  overflow: hidden;
+}
+
 #instagramlogo {
   width: 20px;
   height: 20px;
@@ -259,6 +264,10 @@ input[type="submit"] {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.tarifs{
+  font-size: 1.5em !important;
 }
 
 @media all and (max-width: 1180px) {

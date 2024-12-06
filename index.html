@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
   <html lang="fr">
     <head>
       <meta charset="UTF-8" />
@@ -38,11 +37,11 @@
       <script src="./assets/scripts.js" defer></script>
       <title>Nina Carducci</title>
     </head>
-  </html>
   <body>
+  <header>
     <div class="top-header">
-      <h1 class="name">Nina Carducci</h1>
-      <div class="nav">
+      <p class="name">Nina Carducci</p>
+      <nav class="nav">
         <ul>
           <li><a href="#about">À propos</a></li>
           <li><a href="#gallery">Galerie</a></li>
@@ -60,9 +59,11 @@
             /></a>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
-    <div id="header">
+  </header>
+  <main>
+    <h1 class="page-title">Nina Carducci - Photographe Professionnelle</h1>
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -179,7 +180,6 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
     <div id="about">
       <div class="picture left">
         <img
@@ -210,7 +210,7 @@
       </div>
     </div>
     <div id="gallery">
-      <h3 class="title">Portfolio</h3>
+      <h2 class="title">Portfolio</h2>
       <div class="container py-3">
         <div class="gallery" style="display: none">
           <img
@@ -283,8 +283,9 @@
         </figure>
       </div>
     </div>
+  </main>
     <div id="services">
-      <h3 class="title">Mes services</h3>
+      <h2 class="title">Mes services</h2>
       <div class="container">
         <div class="service">
           <div class="service__description">
@@ -296,7 +297,7 @@
             </p>
           </div>
           <div class="service__price">
-            <h4>350€/demi journée</h4>
+            <p class="tarifs">350€/demi journée</p>
             <span>Matériel, déplacement inclus</span>
           </div>
         </div>
@@ -309,7 +310,7 @@
             </p>
           </div>
           <div class="service__price">
-            <h4>50€/photo</h4>
+            <p class="tarifs">50€/photo</p>
             <span>2 AR par photo</span>
           </div>
         </div>
@@ -322,7 +323,7 @@
             </p>
           </div>
           <div class="service__price">
-            <h4>400€ album A4</h4>
+            <p class="tarifs">400€ album A4</p>
             <span>30 pages recto/verso</span>
           </div>
         </div>
