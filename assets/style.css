@@ -78,7 +78,9 @@ body {
   margin-bottom: 60px;
   font-size: 30px;
 }
-.about-me__introduction {
+.about-me-subtitle {
+  font-size: 1.25rem;       /* Adapter la taille du texte (vous pouvez ajuster en fonction de vos besoins) */
+  line-height: 1.6;         /* Ajuster l'interligne pour un meilleur espacement */
   font-family: "Spectral";
   font-weight: 800;
   font-style: italic;
