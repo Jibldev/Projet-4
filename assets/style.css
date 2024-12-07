@@ -273,6 +273,16 @@ input[type="submit"] {
   object-fit: cover;
 }
 
+.nav-link{
+  cursor: pointer;
+}
+
+.nav-link.active-tag {
+  background-color: #beb45a; /* Couleur de fond pour le filtre actif */
+  color: white; /* Couleur du texte */
+  border-radius: 0;
+}
+
 
 @media all and (max-width: 1180px) {
   .picture {
