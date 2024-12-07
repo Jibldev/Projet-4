@@ -6053,7 +6053,7 @@ textarea.form-control-lg {
   padding: 0;
   height: 100%;
   color: #fff;
-  background: none;
+  background-color: rgba(0, 0, 0, 0.2);
   border: 0;
   opacity: 0.5;
   transition: opacity 0.15s ease;
@@ -6069,6 +6069,7 @@ textarea.form-control-lg {
 .carousel-control-next:hover,
 .carousel-control-next:focus {
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
