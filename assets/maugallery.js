@@ -137,13 +137,6 @@
           imagesCollection.push(img);
         }
       });
-    
-      // Vérifier si la collection est vide
-      if (imagesCollection.length === 0) {
-        console.error("Aucune image correspondante trouvée !");
-        return;
-      }
-    
       // Trouver l'index de l'image active
       let currentIndex = -1;
       for (let i = 0; i < imagesCollection.length; i++) {
@@ -152,16 +145,8 @@
           break;
         }
       }
-    
-      // Vérifier si l'image active est trouvée
-      if (currentIndex === -1) {
-        console.error("Image active introuvable dans la collection !");
-        return;
-      }
-    
       // Calculer l'index de l'image précédente
       const prevIndex = (currentIndex - 1 + imagesCollection.length) % imagesCollection.length;
-    
       // Mettre à jour la source de l'image dans la modale
       $(".lightboxImage").attr("src", $(imagesCollection[prevIndex]).attr("src"));
     },
@@ -179,12 +164,6 @@
         }
       });
     
-      // Vérifier si la collection est vide
-      if (imagesCollection.length === 0) {
-        console.error("Aucune image correspondante trouvée !");
-        return;
-      }
-    
       // Trouver l'index de l'image active
       let currentIndex = -1;
       for (let i = 0; i < imagesCollection.length; i++) {
@@ -193,16 +172,8 @@
           break;
         }
       }
-    
-      // Vérifier si l'image active est trouvée
-      if (currentIndex === -1) {
-        console.error("Image active introuvable dans la collection !");
-        return;
-      }
-    
       // Calculer l'index de l'image suivante
       const nextIndex = (currentIndex + 1) % imagesCollection.length;
-    
       // Mettre à jour la source de l'image dans la modale
       $(".lightboxImage").attr("src", $(imagesCollection[nextIndex]).attr("src"));
     },
